@@ -1,0 +1,280 @@
+body{
+	font-family: "SegoeUIRegular", sans-serif;
+	font-size: 14px;
+	min-width: 320px;
+    overflow-x: hidden;
+}
+.p0{
+	padding: 0;
+}
+
+.border {
+	box-shadow: 0 1px 9px #ececec inset, 0px 0px 0px 0px;
+}
+
+/*BUTTONS*/
+.my_btn{
+	background-color: #e84545;
+	border: none;
+	text-transform: uppercase;
+	color: #fff;
+}
+.btn_md{
+	padding: 10px 30px;
+}
+.btn_lg{
+	padding: 15px 50px;
+}
+.soc_btn_grey{
+	border: 1px solid #c6cacc;
+	color:#c6cacc;
+	background-color: transparent;
+	width: 36px;
+    height: 36px;
+    font-size: 16px;
+}
+
+/*HEADER*/
+header{
+	height: 588px;
+	background-image: url('../img/banner.jpg');
+	-webkit-background-size:cover;
+	background-size: cover;
+	transition: 1s;
+}
+nav {
+    height: 90px;
+    line-height: 90px;
+    z-index: 999;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.78);
+}
+
+.menu{
+	list-style-type:none;
+	margin: 0;
+	padding: 0; 
+}
+.menu li{
+	display: inline-block;
+	padding: 0 28px;
+}
+.menu li a {
+    color: #454545;
+    font-family: 'SegoeUIRegular' , sans-serif;
+    font-size: 17px;
+}
+.menu li a:hover, .menu li a:focus{
+	text-decoration: none;
+	color: #e1e1e1;
+}
+
+.menu .btn-danger {
+    width: 83px;
+    padding: 2px 12px;
+    text-transform: none;
+    font-size: 17px;
+    background: #DE6D6E;
+    font-family: SegoeUIRegular, sans-serif;
+}
+
+
+.logo{
+	padding-top: 20px;
+}
+.title_block {
+    color: #fff;
+    text-align: center;
+    margin-top: 283px;
+    transition: 1s;
+}
+
+.title_block h1 {
+    font-family: 'Alte Haas Grotesk Bold', sans-serif;
+    transition: 1s;
+    text-transform: uppercase;
+    font-size: 69px;
+    margin-bottom: 0px;
+    text-shadow: 2px 2px 80px rgba(0, 0, 0, 0.67);  
+}
+
+.title_block p{
+	font-size: 25px;
+	font-family: 'Alte Haas Grotesk Regular', sans-serif;
+	margin-bottom: 50px;
+}
+
+.circle {
+    height: 118px;
+    width: 118px;
+    background: rgba(255, 255, 255, 0.67);
+    position: relative;
+    margin: 0 auto;
+    border-radius: 100%;
+}
+
+.circle:before {
+    content: "";
+    width: 80px;
+    height: 80px;
+    background: rgba(255, 255, 255, 0.64);
+    position: absolute;
+    border-radius: 100%;
+    top: 27px;
+    right: -37px;
+}
+
+.circle:after {
+    content: "";
+    width: 90px;
+    height: 90px;
+    background: rgba(255, 255, 255, 0.75);
+    border-radius: 100%;
+    position: absolute;
+    top: -23px;
+}
+
+img[alt="Tickets"]{
+
+}
+
+/*Rounders*/
+
+.rounders_block {
+	box-shadow: 0 1px 9px #ececec, 0px 0px 0px 0px;
+    padding-bottom: 52px;
+    text-align: center;
+    padding-top: 66px;
+}
+
+.round {
+	width: 180px;
+	height: 180px;
+	border-radius: 100%;
+	position: relative;
+	color: #fff;
+	margin-top: 86px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.round span{
+	position: absolute;
+	bottom: 20px;
+	left: 60px;
+}
+
+.round img {
+    margin-top: 40px;
+}
+
+.round p {
+    font-size: 12px;
+    text-align: center;
+    padding: 0 10px;
+    line-height: 16px;
+    padding-top: 48px;
+    opacity: 0;
+}
+
+.round:hover p {
+    opacity: 1;
+    transition: 1s;
+    position: absolute;
+    top: 0;
+}
+
+.round:hover img,.round:hover span {
+	opacity: .3;
+	transition: 1s;
+}
+
+.r1 {
+	background-color: #4EB9F4;
+}
+
+.r2 {
+	background-color: #6FC125;
+}
+
+.r3 {
+	background-color: #FF5649;
+}
+
+.r4 {
+	background-color: #E48F23;
+}
+
+/*Content*/
+
+.content_block {
+	padding-top: 4px;
+	padding-bottom: 80px;
+}
+
+.content {
+	margin: 45px;
+	overflow: hidden;
+}
+
+.content img {
+	float: left;
+	margin-right: 25px;
+}
+
+/*Footer*/
+footer {
+	background: url(../img/footer.jpg) repeat; 
+	color: #8b8b8b;    
+	padding: 39px 0px;
+    text-align: center;
+}
+
+footer span {
+	font-size: 25px;
+}
+
+footer ul {
+	padding: 0px
+}
+
+footer li {
+	list-style-type: none;
+}
+
+footer i {
+    color: #252825;
+    background: #696B6A;
+    width: 54px;
+    height: 54px;
+    border-radius: 100%;
+    font-size: 30px !important;
+    text-align: center;
+    padding-top: 12px;
+    margin-right: 25px;
+    margin-bottom: 24px;
+    margin-top: 35px;
+    transition: .5s;
+}
+
+footer i:hover{
+    color: #f5f5f5;
+    background: #1d1d1d;
+    transition: .5s;
+}
+
+li a:hover {
+    cursor: pointer;
+    display: block;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+footer a {
+    color: #8b8b8b;
+}
